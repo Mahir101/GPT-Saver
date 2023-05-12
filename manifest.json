@@ -1,0 +1,13 @@
+{
+  "name": "ChatGPT Message Saver",
+  "version": "1.0",
+  "description": "Saves ChatGPT messages to a file.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["contentscript.js"]
+    }
+  ],
+  "permissions": ["tabs"]
+}
